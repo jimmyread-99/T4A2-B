@@ -1,0 +1,62 @@
+<!-- templates/index.html -->
+
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<div class="card-deck">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKL7S2HdAurw4x94MSo1lTgraQliM6kTnjw&usqp=CAU" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="list-group-item list-group-item-dark" class="card-title">Full Membership</h5><br>
+        <p class="card-text">Enjoy being a full member where you are able to come and go as you please, book as many session as you need as well as lessons with the coach</p>
+      </div>
+      <div class="card-footer">
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Contact the club on 0000 000 000
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://clarindatennis.com.au/wp-content/uploads/2020/05/social_tennis.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="list-group-item list-group-item-dark" class="card-title">Casual Membership</h5><br>
+        <p class="card-text">Become a casual member and play some tennis today, you are able to book casual tennis on the 3 courts we provide</p>
+      </div>
+      <div class="card-footer">
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Contact the club on 0000 000 000
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ21EQ5_8NWPVRASElPNr5zFpR0Hbr8enhkdQ&usqp=CAU" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="list-group-item list-group-item-dark" class="card-title">Tennis Lessons and Clinics</h5><br>
+        <p class="card-text">Schools or groups can book clinics and sessions and get a discount.  Whether is be for development or fitness check ot the clinics being run or attend a lesson today</p>
+      </div>
+      <div class="card-footer">
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Contact the club on 0000 000 000
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<p></p>
+
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Show More
+      </a>
+  </p>
+
+  {% endblock %}
