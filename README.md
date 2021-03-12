@@ -2,7 +2,7 @@
 
 https://murrumbeenatennis.ml/
 
-# R12 Linnk to github repo
+## R12 Link to github repo
 
 https://github.com/jimmyread-99/T4A2-B
 
