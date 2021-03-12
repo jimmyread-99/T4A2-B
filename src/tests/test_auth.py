@@ -65,7 +65,7 @@ class TestAuthMoodApp(unittest.TestCase):
         self.assertEqual(response.status_code, 302)
 
         response = self.client.post('/login', data={
-            'email': 'test55@test.com,
+            'email': 'test55@test.com',
             'password': '1123456'
         }, follow_redirects=True)
         self.assertEqual(response.status_code, 200)
